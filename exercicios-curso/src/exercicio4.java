@@ -1,5 +1,5 @@
 //Programa que calcula o sálario de um funcionário com
-// base no valor de hora ganha pelo mesmo e suas horas trabalhadas.
+//base no valor de hora ganha pelo mesmo e suas horas trabalhadas.
 
 import java.util.Scanner;
 
