@@ -1,3 +1,5 @@
+//Programa que calcula o preço total de dois produtos extraindo informações do usuário
+
 import java.util.Scanner;
 
 public class exercicio5 {
