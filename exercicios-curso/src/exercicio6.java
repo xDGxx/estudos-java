@@ -1,5 +1,6 @@
 // Programa que leia três valores com ponto flutuante de dupla precisão: A, B e C.
 
+
 import java.util.Scanner;
 
 public class exercicio6 {
