@@ -20,4 +20,3 @@ public class Exercicio3 {
         }
     }
 }
-
