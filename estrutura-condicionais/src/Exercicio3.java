@@ -1,3 +1,5 @@
+//Programa que verifica se um número é múltiplo de outro
+
 import java.util.Scanner;
 
 public class Exercicio3 {
@@ -10,7 +12,7 @@ public class Exercicio3 {
         System.out.println("Digite o primeiro valor: ");
         a = scan.nextInt();
 
-        System.out.println("Digite o egundo valor: ");
+        System.out.println("Digite o segundo valor: ");
         b = scan.nextInt();
 
         if (a % b == 0 && b % a == 0){
