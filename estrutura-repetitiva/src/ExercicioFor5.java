@@ -11,7 +11,7 @@ public class ExercicioFor5 {
         System.out.println("DIGITE UM NUMERO E DESCUBRA SEUS DIVISORES INTEIROS: ");
         int n = scan.nextInt();
 
-        for(int i=0; i<=n; i++){
+        for(int i=1; i<=n; i++){
             if (n % i == 0){
                 System.out.println(i);
             }
