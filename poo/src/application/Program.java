@@ -3,6 +3,8 @@
 
 package application;
 
+import entities.Triangulo;
+
 import java.util.Scanner;
 
 public class Program {
@@ -10,23 +12,25 @@ public class Program {
     public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
 
-        double xA, xB, xC, yA, yB, yC;
+        Triangulo x, y;
+        x = new Triangulo();
+        y = new Triangulo();
 
         System.out.println("Entre com as medidas do triângulo X: ");
-        xA = scan.nextDouble();
-        xB = scan.nextDouble();
-        xC = scan.nextDouble();
+        x.a = scan.nextDouble();
+        x.b = scan.nextDouble();
+        x.c = scan.nextDouble();
 
         System.out.println("Entre com as medidas do triângulo Y: ");
-        yA = scan.nextDouble();
-        yB = scan.nextDouble();
-        yC = scan.nextDouble();
+        y.a = scan.nextDouble();
+        y.b = scan.nextDouble();
+        y.c = scan.nextDouble();
 
-        double p = (xA + xB + xC) / 2.0;
-        double areaX = Math.sqrt(p * (p - xA) * (p - xB) * (p - xC));
+        double p = (x.a + x.b + x.c) / 2.0;
+        double areaX = Math.sqrt(p * (p - x.a) * (p - x.b) * (p - x.c));
 
-        p = (yA + yB + yC) / 2.0;
-        double areaY = Math.sqrt(p * (p - yA) * (p - yB) * (p - yC));
+        p = (y.a + y.b + y.c) / 2.0;
+        double areaY = Math.sqrt(p * (p - y.a) * (p - y.b) * (p - y.c));
 
         System.out.printf("Área do triângulo X: %.4f%n", areaX);
         System.out.printf("Área do triângulo Y: %.4f%n", areaY);
