@@ -1,0 +1,21 @@
+CLASSE
+* É um tipo estruturado que pode conter (membros)
+--Atributos (dados/campos)
+--Métodos (funções/operadores)
+
+* A classe também pode prover muitos outros recursos, tais como:
+--Construtores
+--Sobrecarga
+--Encapsulamento
+--Herança
+--Polimorfismo
+
+*Exemplos:
+--Entidades: Produto, Cliente, Triangulo
+--Serviços: ProdutoService, ClienteService, EmailService, StorageService
+--Controladores: ProdutoController, Cliente Controller
+--Utilitários: Calculadora, Compactador
+--Outros: (views, repositórios, gerenciadores, etc.)
+
+*CLASSE = é a definição do tipo
+*OBJETOS = são instâncias da classe
