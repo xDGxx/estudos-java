@@ -31,7 +31,7 @@ public class Program {
 
         p = (y.a + y.b + y.c) / 2.0;
         double areaY = Math.sqrt(p * (p - y.a) * (p - y.b) * (p - y.c));
-
+        
         System.out.printf("Área do triângulo X: %.4f%n", areaX);
         System.out.printf("Área do triângulo Y: %.4f%n", areaY);
 
