@@ -20,4 +20,14 @@ public class Product {
         this.quantity -= quantity;
     }
 
+    public String toString (){
+        return name
+                + ", $ "
+                + String.format("%.2f", price) //Modelo de mascara para que a string seja visivel com duas casas decimais
+                + ", "
+                + quantity
+                + " units, Total: $ "
+                + String.format("%.2f", totalValueInStock());
+    }
+
 }
